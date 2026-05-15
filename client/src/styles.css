@@ -34,9 +34,18 @@ button {
 
 .auth-shell {
   align-items: center;
+
   background:
-    linear-gradient(120deg, rgba(22, 120, 104, 0.9), rgba(26, 47, 77, 0.82)),
-    url("https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1800&q=80") center/cover;
+    linear-gradient(
+      135deg,
+      rgba(7, 15, 35, 0.92),
+      rgba(30, 41, 59, 0.88)
+    ),
+    url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=80");
+
+  background-size: cover;
+  background-position: center;
+
   display: flex;
   min-height: 100vh;
   padding: 40px;
@@ -61,11 +70,19 @@ button {
 }
 
 .auth-card {
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 8px;
-  color: #172026;
-  padding: 24px;
+  background: rgba(15, 23, 42, 0.78);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 24px;
+  color: white;
+
+  padding: 30px;
+
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .subtle {
@@ -75,7 +92,7 @@ button {
 }
 
 .segmented {
-  background: #e8eef0;
+  background: rgba(255,255,255,0.06);
   border-radius: 8px;
   display: grid;
   gap: 4px;
@@ -92,7 +109,8 @@ button {
 }
 
 .segmented .active {
-  background: white;
+background: rgba(124, 58, 237, 0.9);
+  color: white;
   box-shadow: 0 1px 8px rgba(15, 23, 42, 0.12);
 }
 
@@ -102,7 +120,7 @@ button {
 }
 
 label {
-  color: #4b5d66;
+  color: #CBD5E1;
   display: grid;
   font-size: 13px;
   gap: 7px;
@@ -110,12 +128,15 @@ label {
 
 input,
 select {
-  background: white;
-  border: 1px solid #ccd8dd;
-  border-radius: 8px;
-  color: #172026;
-  min-height: 42px;
-  padding: 9px 11px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  color: white;
+  min-height: 48px;
+  padding: 10px 14px;
+}
+input::placeholder {
+  color: #94A3B8;
 }
 
 select[multiple] {

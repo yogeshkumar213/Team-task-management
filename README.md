@@ -67,9 +67,4 @@ Demo accounts:
 - `PATCH /api/tasks/:id`
 - `GET /api/dashboard`
 
-## Submission Checklist
 
-- Live URL: add Railway URL here
-- GitHub repo: add repository URL here
-- README: included
-- Demo video: record a 2-5 minute walkthrough showing login, project creation, task assignment, dashboard, and role restrictions

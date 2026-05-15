@@ -51,9 +51,9 @@ function AuthPage() {
     <main className="auth-shell">
       <section className="auth-panel">
         <div>
-          <p className="eyebrow">Ethara Workspace</p>
-          <h1>Run projects with clear ownership.</h1>
-          <p className="subtle">Create projects, assign work, and track overdue tasks from one role-aware dashboard.</p>
+          <p className="eyebrow">POWERED BY ETHARA AI</p>
+          <h1>Manage teams with smarter collaboration.</h1>
+          <p className="subtle">Plan projects, assign tasks, and monitor progress from one intelligent workspace.</p>
         </div>
 
         <div className="auth-card">
